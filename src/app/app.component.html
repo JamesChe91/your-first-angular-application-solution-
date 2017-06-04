@@ -1,0 +1,5 @@
+<img [src]="imgSource"/>
+<app-my-component></app-my-component>
+{{count}}
+<button (click)="count = count + 1;inputState=disabled">Click me</button><br/>
+<input type="text" [disabled]="enabled"/><button (click)="enabled=!enabled">{{enabled}}</button>
